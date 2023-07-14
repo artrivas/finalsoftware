@@ -148,7 +148,7 @@ def test_get_cuenta(numero):
 def test_pagar_cuenta(numero,numerodestino,valor):
     return database.pagar_cuenta(numero,numerodestino,valor)
 
-def test_get_historial(numero)
+def test_get_historial(numero):
     return database.get_historial(numero)
 
 if __name__ == "__main__":
